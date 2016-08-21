@@ -1,0 +1,20 @@
+package acadglid;
+
+import java.util.Scanner;
+
+public class ageforvote {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in); 
+		System.out.print("Enter a age:"); 
+		int month = input.nextInt();  
+		int age=0;
+		if(age>=18)
+		{
+			System.out.println("you are eligible for voting");
+			
+		}
+		else{
+			System.out.println("you are not eligible for voting");
+		}
+	}
+		}
